@@ -8,22 +8,24 @@
 </svelte:head>
 
 <section>
-	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset="svelte-welcome.webp" type="image/webp" />
-				<img src="svelte-welcome.png" alt="Welcome" />
-			</picture>
-		</span>
+	<h1>CS 132 2425B Portfolio</h1>
+	<h2>Group 14 - Sustainability</h2>
+	<h2>DE LA CRUZ, MACARAIG, FADRI</h2>
+</section>
 
-		to your new<br />SvelteKit app
-	</h1>
+<section>
+	<h1>Research Design</h1>
+	<h2>Research Questions</h2>
+</section>
 
-	<h2>
-		try editing <strong>src/routes/index.svelte</strong>
-	</h2>
+<section>
+	<h1>About the Dataset</h1>
+</section>
 
-	<Counter />
+<section>
+	<a href="https://docs.google.com/spreadsheets/d/1REc2vacPZloKL9R9SHjVuz4Ega1yfvli4pcqteynxzs" style="font-size:2.5em">
+		Link to the Dataset
+	</a>
 </section>
 
 <style>
