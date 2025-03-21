@@ -54,10 +54,12 @@ h1,
 h2,
 p,
 li {
+  text-align: center;
   font-weight: 400;
   color: var(--heading-color);
 }
 
+li,
 p {
   line-height: 1.5;
 }
@@ -69,6 +71,10 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+ul {
+  list-style-position: inside;
 }
 
 h1 {
@@ -105,4 +111,11 @@ button:focus:not(:focus-visible) {
   h1 {
     font-size: 2.4rem;
   }
+}
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /*so you can see it in demo */
+  width: 100%
 }

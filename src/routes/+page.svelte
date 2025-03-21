@@ -12,6 +12,7 @@
 	<h2>Group 14 - Sustainability</h2>
 	<h2>DE LA CRUZ, MACARAIG, FADRI</h2>
 </section>
+<hr>
 
 <section>
 	<h1>Research Design</h1>
@@ -44,10 +45,43 @@
 
 </section>
 
+<hr>
+
 <section>
 	<h1>About the Dataset</h1>
+
+	<h2>Description of Data Set</h2>
+	<p>The Infrastructure Flagship Projects (IFP) 2024 Dataset, compiled by the National Economic Development Authority (NEDA), provides a comprehensive overview of the status and progress of the national government’s infrastructure initiatives. NEDA aggregates this data yearly to track the status of major government projects. It includes key project details such as title, affected sector, implementing agency, cost and funding allocation, funding source, development partners, geographic coverage, target completion year, and current status at the time of data collection. By analyzing the diverse data points in this dataset, we can gain insights into the government’s priorities regarding sustainability and urban planning.</p>
+	
+	<h2>Content of Dataset</h2>
+	<ul>
+		<li>TITLE: Title of the project.</li>
+		<li>SECTOR: Sector/focus that would benefit from the project. This includes: Physical Connectivity, Water Resources, Agriculture, etc.</li>
+		<li>IMPLEMENTING AGENCY: Government agency responsible for the development of the project. This includes: DPWH, DOTR, DICT, etc.</li>
+		<li>INDICATIVE PROJECT COST: The agreed cost of the project.</li>
+		<li>FUND SOURCE: Source of the funding of the project. These include: GAA (General Appropriations Act), ODA (Official Development Assistance), PPP, etc.</li>
+		<li>DEVELOPMENT PARTNER: External or foreign development partner for the project. This can include support from countries like Japan, China, France, etc., or private companies, like AUB and ADB.</li>
+		<li>REGION: Geographical regions covered by the project. This includes: NCR, Region I, Region II, etc.</li>
+		<li>TARGET COMPLETION YEAR: Proposed year the project would be completed.</li>
+		<li>STATUS/MILESTONE: Current progress/stage of the project. This includes: Completed, Ongoing, Approved for implementation, Under project preparation, etc.</li>
+	</ul>
+
+	<h2>Description of Data Collection Process</h2>
+	<p>The dataset will be taken from NEDA’s website. The dataset can be found at <a href="https://neda.gov.ph/infrastructure-flagship-projects/?appgw_azwaf_jsc=30n3ZhwmPWnBDkvy6UI96JVnxMXUvCTKIBzDPCFLIjU">[National Economic and Development Authority]</a>.</p>
+
+	<h2>Sampling Method</h2>
+	<p>N/A</p>
+
+	<h2>Data set size</h2>
+	<p>The dataset contains 186 entries, each entry containing the project’s title, affected sector, implementing agency, cost and funding allocation, funding source, development partners, geographic coverage, target completion year, and current status at the time of data collection (9 different values per row).</p>
+
+	<h2>Preprocessing</h2>
+	<p>N/A</p>
 </section>
 
+<hr>
+
+<br>
 <section>
 	<a href="https://docs.google.com/spreadsheets/d/1REc2vacPZloKL9R9SHjVuz4Ega1yfvli4pcqteynxzs" style="font-size:2.5em">
 		Link to the Dataset
@@ -65,21 +99,5 @@
 
 	h1 {
 		width: 100%;
-	}
-
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
 	}
 </style>
