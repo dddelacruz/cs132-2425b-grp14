@@ -40,8 +40,8 @@
 	</ul>
 
 	<h2>Hypotheses</h2>
-	<p><b>Null Hypothesis:</b> The government is not prioritizing certain kinds of sustainability projects.</p>
-	<p><b>Alternate Hypothesis:</b> The government is prioritizing certain kinds of sustainability projects. </p>
+	<p><b>Null Hypothesis:</b> There is no significant difference in budget allocation per type of project.</p>
+	<p><b>Alternate Hypothesis:</b> There is a significant difference in budget allocation per type of project. </p>
 
 </section>
 
@@ -70,13 +70,16 @@
 	<p>The dataset will be taken from NEDA’s website. The dataset can be found at <a href="https://neda.gov.ph/infrastructure-flagship-projects/?appgw_azwaf_jsc=30n3ZhwmPWnBDkvy6UI96JVnxMXUvCTKIBzDPCFLIjU">[National Economic and Development Authority]</a>.</p>
 
 	<h2>Sampling Method</h2>
-	<p>N/A</p>
+	<p>Due to the relatively smaller dataset (186 entries), further reducing the data by extracting samples may exclude certain projects/sectors/regions and may introduce biases. We have decided to study the dataset as is to analyze all relevant data points.</p>
 
 	<h2>Data set size</h2>
 	<p>The dataset contains 186 entries, each entry containing the project’s title, affected sector, implementing agency, cost and funding allocation, funding source, development partners, geographic coverage, target completion year, and current status at the time of data collection (9 different values per row).</p>
 
 	<h2>Preprocessing</h2>
-	<p>N/A</p>
+	<p>The dataset we took from NEDA has been organized into a readable csv file, but minimal preprocessing may be required:
+		Convert numeric data into float (applicable for INDICATIVE PROJECT COST)
+		Simplify categories (like in TARGET COMPLETION YEAR, maybe “beyond 2028” can be 2028+ or converted to int)
+		Possible: split rows with multiple categories (like in REGION/S, having “I, IV, NCR” can be split into the individual regions for easier data analysis)</p>
 </section>
 
 <hr>
