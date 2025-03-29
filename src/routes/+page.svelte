@@ -76,11 +76,13 @@
 	<p>The dataset contains 186 entries, each entry containing the project’s title, affected sector, implementing agency, cost and funding allocation, funding source, development partners, geographic coverage, target completion year, and current status at the time of data collection (9 different values per row).</p>
 
 	<h2>Preprocessing</h2>
-	<p>The dataset we took from NEDA has been organized into a readable csv file, but minimal preprocessing may be required:
-		Convert numeric data into float (applicable for INDICATIVE PROJECT COST)
-		Simplify categories (like in TARGET COMPLETION YEAR, maybe “beyond 2028” can be 2028+ or converted to int)
-		Possible: split rows with multiple categories (like in REGION/S, having “I, IV, NCR” can be split into the individual regions for easier data analysis)</p>
-</section>
+	<p>The dataset we took from NEDA has been organized into a readable CSV file, but minimal preprocessing may be required:</p>
+		<ul>
+			<li>Convert numeric data into float (applicable for INDICATIVE PROJECT COST)</li>
+			<li>Simplify categories (like in TARGET COMPLETION YEAR, maybe “beyond 2028” can be 2028+ or converted to int)</li>
+			<li>Possible: split rows with multiple categories (like in REGION/S, having “I, IV, NCR” can be split into the individual regions for easier data analysis)</li>
+		</ul>
+	</section>
 
 <hr>
 
