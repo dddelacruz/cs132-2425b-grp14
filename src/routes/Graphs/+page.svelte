@@ -1,6 +1,7 @@
 <script>
 	import pie_legend from '$lib/assets/pie_legend.png';
 	import pie from '$lib/assets/pie.png';
+	import bar_sector_count from '$lib/assets/bar_sector_count.png';
 </script>
 
 <svelte:head>
@@ -87,6 +88,15 @@
 			</tr>
 		</table>
 	</div>
+
+	<br style="margin: 3vh 0">
+
+	<h3>2. What kind of sustainability projects is the current government focused on?</h3>
+	<div>
+		<p><b>Bar chart illustrating the project counts of each sector</b></p>
+		<img alt="Pie Chart per Sector" src={bar_sector_count} style="width:60vw"/>
+	</div>
+	<p>It can be seen that the type of sustainability project that has the highest count are <b>Physical Connectivity</b> projects, with a count of 135. Meanwhile, the <b>Education</b> and <b>Power and Energy</b> have the lowest counts, with each at 1.</p>
 </section>
 
 <style>
