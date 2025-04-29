@@ -96,7 +96,9 @@
 		<p><b>Bar chart illustrating the project counts of each sector</b></p>
 		<img alt="Pie Chart per Sector" src={bar_sector_count} style="width:60vw"/>
 	</div>
-	<p>It can be seen that the type of sustainability project that has the highest count are <b>Physical Connectivity</b> projects, with a count of 135. Meanwhile, the <b>Education</b> and <b>Power and Energy</b> have the lowest counts, with each at 1.</p>
+	<p style="margin:5px">It can be seen that the type of sustainability project that has the highest count are <b>Physical Connectivity</b> projects, with a count of 135.</p>
+	<p style="margin:5px">The second highest is <b>Water Resources</b> at a count of 29.</p>
+	<p style="margin:5px">Meanwhile, <b>Education</b> and <b>Power and Energy</b> have the lowest counts, with each at 1.</p>
 </section>
 
 <style>
