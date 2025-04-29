@@ -1,0 +1,34 @@
+[
+    {
+      "name": "Agriculture",
+      "value": 213.68
+    },
+    {
+      "name": "Digital Connectivity",
+      "value": 78.11
+    },
+    {
+      "name": "Education",
+      "value": 30.56
+    },
+    {
+      "name": "Health",
+      "value": 95.73
+    },
+    {
+      "name": "Other Infrastructure",
+      "value": 21.34
+    },
+    {
+      "name": "Physical Connectivity",
+      "value": 8343.71
+    },
+    {
+      "name": "Power and Energy",
+      "value": 10.19
+    },
+    {
+      "name": "Water Resources",
+      "value": 775.07
+    }
+]

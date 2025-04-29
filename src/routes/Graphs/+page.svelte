@@ -1,4 +1,7 @@
 <script>
+	import PieChart from '$lib/PieChart.svelte';
+	import fund_allocation from '$lib/data/fund_allocation.json';
+
 </script>
 
 <svelte:head>
@@ -12,7 +15,7 @@
 <hr>
 
 <section>
-	
+	<PieChart data={fund_allocation}/>
 </section>
 
 <style>
