@@ -25,10 +25,10 @@
 		<p><b>Pie Chart for percentage of funds allocated to each sector</b></p>
 		<div class="row">
 			<div class="column">
-				<img alt="Pie Chart per Sector" src={pie} style="height:25vw"/>
+				<img alt="Pie Chart per Sector" src={pie} style="width:25vw; float:right;"/>
 			</div>
 			<div class="column">
-				<img alt="Pie Chart Legend" src={pie_legend} style="width:15vw"/>
+				<img alt="Pie Chart Legend" src={pie_legend} style="width:15vw; float:left;"/>
 			</div>
 		</div>
 	</div>
@@ -94,7 +94,7 @@
 	<h3>2. What kind of sustainability projects is the current government focused on?</h3>
 	<div>
 		<p><b>Bar chart illustrating the project counts of each sector</b></p>
-		<img alt="Pie Chart per Sector" src={bar_sector_count} style="width:60vw"/>
+		<img alt="Bar Chart per Sector" src={bar_sector_count} style="width:60vw"/>
 	</div>
 	<p style="margin:5px">It can be seen that the type of sustainability project that has the highest count are <b>Physical Connectivity</b> projects, with a count of 135.</p>
 	<p style="margin:5px">The second highest is <b>Water Resources</b> at a count of 29.</p>
@@ -121,6 +121,7 @@
 	.column {
 		flex: 33.33%;
 		padding: 5vh;
+		justify-content: center;
 	}
 
 	table {
@@ -133,4 +134,5 @@
 	text-align: left;
 	padding: 8px;
 	}
+
 </style>
