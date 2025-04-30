@@ -1,7 +1,8 @@
 <script>
-	import pie_legend from '$lib/assets/pie_legend.png';
-	import pie from '$lib/assets/pie.png';
-	import bar_sector_count from '$lib/assets/bar_sector_count.png';
+	import pie_chart from '$lib/assets/pie_chart.png';
+	import bar_project_count from '$lib/assets/bar_project_count.png';
+	import bar_region_count from '$lib/assets/bar_region_count_stacked2.png';
+	import bar_region_funds from '$lib/assets/bar_region_funds_stacked2.png';
 </script>
 
 <svelte:head>
@@ -23,13 +24,8 @@
 
 	<div>
 		<p><b>Pie Chart for percentage of funds allocated to each sector</b></p>
-		<div class="row">
-			<div class="column">
-				<img alt="Pie Chart per Sector" src={pie} style="width:25vw; float:right;"/>
-			</div>
-			<div class="column">
-				<img alt="Pie Chart Legend" src={pie_legend} style="width:15vw; float:left;"/>
-			</div>
+		<div style="display:flex; justify-content:center;">
+			<img alt="Pie Chart per Sector" src={pie_chart} style="width:50vw; min-width: 500px; margin-top:2vh; margin-bottom:5vh;"/>
 		</div>
 	</div>
 
@@ -94,11 +90,27 @@
 	<h3>2. What kind of sustainability projects is the current government focused on?</h3>
 	<div>
 		<p><b>Bar chart illustrating the project counts of each sector</b></p>
-		<img alt="Bar Chart per Sector" src={bar_sector_count} style="width:60vw"/>
+		<img alt="Bar Chart per Sector" src={bar_project_count} style="width:70vw; min-width:500px; margin-bottom:4vh;"/>
 	</div>
 	<p style="margin:5px">It can be seen that the type of sustainability project that has the highest count are <b>Physical Connectivity</b> projects, with a count of 135.</p>
 	<p style="margin:5px">The second highest is <b>Water Resources</b> at a count of 29.</p>
 	<p style="margin:5px">Meanwhile, <b>Education</b> and <b>Power and Energy</b> have the lowest counts, with each at 1.</p>
+
+	<br style="margin: 3vh 0">
+
+	<h3>3. Which regions does the government prioritize?</h3>
+	<div>
+		<p><b>Bar chart illustrating the project counts of per region</b></p>
+		<img alt="Bar Chart of projects per region" src={bar_region_count} style="width:80vw; min-width:500px; margin-bottom:4vh;"/>
+	</div>
+
+	<div>
+		<p><b>Bar chart illustrating funds allocated for projects per region</b></p>
+		<img alt="Bar Chart of funds per region" src={bar_region_funds} style="width:80vw; min-width:500px; margin-bottom:2vh;"/>
+	</div>
+
+	<p style="margin:5px"><i>Note that a single project may be implemented in more than one region, so there is double counting for the values.</i></p>
+	<p style="margin:5px"><i>Additionally each region's count and funds does not include projects that are desginated as 'Nationwide'.</i></p>
 </section>
 
 <style>
@@ -112,16 +124,6 @@
 
 	h1 {
 		width: 100%;
-	}
-
-	.row {
-  		display: flex;
-	}
-
-	.column {
-		flex: 33.33%;
-		padding: 5vh;
-		justify-content: center;
 	}
 
 	table {
