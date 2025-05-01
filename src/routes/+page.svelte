@@ -9,8 +9,8 @@
 
 <section>
 	<h1>CS 132 2425B Portfolio</h1>
-	<h2>Group 14 - Sustainability</h2>
-	<h2>DE LA CRUZ, MACARAIG, FADRI</h2>
+	<h2>Analyzing the State of Urban and Rural Development Projects in the Philippines in 2024</h2>
+	<h2>Group 14 - Sustainability - DE LA CRUZ, MACARAIG, FADRI</h2>
 </section>
 <hr>
 
@@ -104,5 +104,15 @@
 
 	h1 {
 		width: 100%;
+	}
+
+	section {
+		border: 2px solid gray;
+  		border-radius: 5px;
+		width: 70vw;
+		min-width: 500px;
+		padding: 25px;
+		background-color: rgba(255, 255, 255, 0.8);
+		margin: 20px auto;
 	}
 </style>
