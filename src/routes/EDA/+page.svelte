@@ -25,6 +25,11 @@
 <hr>
 
 <section>
+	<h2>Nutshell Graph</h2>
+	<iframe src="/plots/nutshell_plot.html" width="100%" height="800px" style="border: none;"></iframe>
+</section>
+
+<section>
 	<h2>Project Graphs</h2>
 
 	<h3>1. How are project funds allocated towards sustainability?</h3>
