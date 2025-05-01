@@ -8,6 +8,9 @@
 	import airplane from '$lib/assets/airplane.png';
 	import road from '$lib/assets/road.png';
 	import hotspots from '$lib/assets/hotspots.png';
+	import Hypothesis_1 from '$lib/assets/Hypothesis_1.png';
+	import Hypothesis_2 from '$lib/assets/Hypothesis_2.png';
+    import Page from '../+page.svelte';
 </script>
 
 <svelte:head>
@@ -235,7 +238,7 @@
 
 	<br style="margin: 3vh 0">
 
-	<h3>3. Which regions does the government prioritize?</h3>
+	<h2>3. Which regions does the government prioritize?</h2>
 	<div>
 		<p><b>Bar chart illustrating the project counts of per region</b></p>
 		<img alt="Bar Chart of projects per region" src={bar_region_count} style="width:80vw; min-width:500px; margin-bottom:4vh;"/>
@@ -248,6 +251,22 @@
 
 	<p><i>Note that a single project may be implemented in more than one region, so there is double counting for the values.</i></p>
 	<p><i>Additionally each region's count and funds does not include projects that are desginated as 'Nationwide'.</i></p>
+	<h2><b>Hypothesis Testing</b> </h2>
+	<img src={Hypothesis_1}>
+	<p> A Chi-Square Goodness of Fit test will be used for the hypothesis testing at a 95% confidence interval </p>
+	<p> Chi-square test statistic: <span class='highlight'>105.33742331288343</span>, p-value: <span class='highlight'>9.034780338843591e-15</span></p>
+	<p> Since p &lt; 0.05, <b>we reject the null hypothesis</b></p>
+	<p><b> Sustainability projects are not evenly distributed among regions in the philippines</b></p>
+
+	<br>
+
+	<img src={Hypothesis_2}>
+	<p> A Chi-Square Goodness of Fit test will be used for the hypothesis testing at a 95% confidence interval </p>
+	<p> Chi-square test statistic is: <span class='highlight'>31.593451646686034</span>, p-value: <span class='highlight'>0.011290289027137851</span></p>
+	<p> Since p &lt; 0.05, <b>we reject the null hypothesis</b></p>
+	<p><b> Sustainability projects are not distributed proportionally to the population of each region as a fraction of the total population.</b></p>
+
+
 </section>
 
 <style>
@@ -293,5 +312,6 @@
 		color: #ff3e00;
 		font-weight: bold;
 	}
+	
 
 </style>
