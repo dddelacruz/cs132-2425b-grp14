@@ -19,13 +19,17 @@
     </div>
 
     <div class='link-box'>
-        <p class="link">{link}</p>
+        <p class="link"><a href={link}>Github link</a></p>
     </div>
 </div>
 
 <style>
     p{
         margin: 0;
+    }
+
+    .name{
+        font-weight: bold;
     }
 
     .name-box{

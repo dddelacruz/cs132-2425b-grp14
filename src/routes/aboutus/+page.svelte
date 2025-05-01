@@ -1,12 +1,20 @@
 <script>
 	import AboutCard from '$lib/aboutcard/AboutCard.svelte';
 	import avatar from '$lib/assets/avatar.png'
+	import avatar_delacruz from '$lib/assets/avatar_delacruz.png'
 
 	let about = {
 		"avatar" : avatar,
 		"name" : "name1",
 		"desc" : "desc2",
 		"link" : "link3",
+	}
+
+	let delacruz = {
+		"avatar" : avatar_delacruz,
+		"name" : "Diana Mae D. de la Cruz",
+		"desc" : "Currently a graduating 4th year BS Computer Science student under the Scientific Computing Laboratory.",
+		"link" : "https://github.com/dddelacruz",
 	}
 </script>
 
@@ -21,7 +29,7 @@
 
 <div class='row'>
 	<div class='column'>
-		<AboutCard {...about}/>
+		<AboutCard {...delacruz}/>
 	</div>
 
 	<div class='column'>
