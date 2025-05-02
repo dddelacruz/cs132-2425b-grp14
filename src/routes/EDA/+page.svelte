@@ -23,7 +23,7 @@
 
 <section>
 	<h2>Nutshell Graph</h2>
-	<iframe src="/plots/nutshell_plot.html" width="100%" height="800px" style="border: none;"></iframe>
+	<iframe src="/nutshell_plot.htm" width="100%" height="800px" style="border: none;"></iframe>
 </section>
 
 <section>
