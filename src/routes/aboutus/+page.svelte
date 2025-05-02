@@ -13,7 +13,7 @@
 	let delacruz = {
 		"avatar" : avatar_delacruz,
 		"name" : "Diana Mae D. de la Cruz",
-		"desc" : "Currently a graduating 4th year BS Computer Science student under the Scientific Computing Laboratory.",
+		"desc" : "Currently a graduating 4th year BS Computer Science student under the Scientific Computing Laboratory.\nUsually found playing maimai.",
 		"link" : "https://github.com/dddelacruz",
 	}
 </script>
