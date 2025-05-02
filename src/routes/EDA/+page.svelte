@@ -266,7 +266,8 @@
 	</div>
 
 	<div class='textbox'>
-		<p><i>Note that a single project may be implemented in more than one region, so there is double counting for the values.</i></p>
+		<p><i>Note that a single project may be implemented in more than one region.</i></p>
+		<p><i>It is then assumed that the budget of multi-regional projects are equally split between regions.</i></p>
 		<p><i>Additionally each region's count and funds does not include projects that are desginated as 'Nationwide'.</i></p>
 	</div>
 </section>
