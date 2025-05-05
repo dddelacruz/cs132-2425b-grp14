@@ -3,12 +3,13 @@
 	import avatar from '$lib/assets/avatar.png'
 	import avatar_delacruz from '$lib/assets/avatar_delacruz.png'
 	import avatar_fadri from '$lib/assets/avatar_fadri.png'
+	import avatar_macaraig from '$lib/assets/avatar_macaraig.jpg'
 
 	let about = {
-		"avatar" : avatar,
-		"name" : "name1",
-		"desc" : "desc2",
-		"link" : "link3",
+		"avatar" : avatar_macaraig,
+		"name" : "Manuel Carlo D. Macaraig",
+		"desc" : "Currently a graduating 4th year BS Computer Science student. If he's not coding, he's either making beats or cool posters : ]",
+		"link" : "https://github.com/mdmacaraig",
 	}
 	let fadri = {
 		"avatar" : avatar_fadri,

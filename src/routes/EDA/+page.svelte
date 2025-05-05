@@ -12,6 +12,7 @@
 	import Hypothesis_2 from '$lib/assets/Hypothesis_2.png';
 	import Hypothesis_3 from '$lib/assets/Hypothesis_3.png';
 	import Hypothesis_4 from '$lib/assets/Hypothesis_4.png';
+	import nutshell from '$lib/assets/nutshell_plot.png'
     import Page from '../+page.svelte';
 </script>
 
@@ -25,8 +26,12 @@
 </section>
 
 <section>
-	<h2>Nutshell Graph</h2>
-	<iframe src="/nutshell_plot.htm" width="100%" height="800px" style="border: none;"></iframe>
+	<h2>Nutshell Plot (static)</h2>
+	<img alt="Nutshell Plot" src={nutshell} style="width:50vw; margin-top:2vh; margin-bottom:5vh;"/>
+	<p>We can see that from the different Hypothesis tests, the allocation of project resources is not
+		aligned with the uniform distribution or the population based distribution. The resource distribution is uneven and policy adjustments may be warranted to ensure equitable allocation across regions. Additionally, the different graphs and plots show us that the projects are concentrated in Luzon, specifically NCR which reflects a more centralized approach to development.</p>
+	<h2>Nutshell Plot (interactive)</h2>
+	<iframe title='Nutshell Plot' src="/nutshell_plot.htm" width="100%" height="800px" style="border: none;"></iframe>
 </section>
 
 <section>

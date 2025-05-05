@@ -8,9 +8,11 @@
 </svelte:head>
 
 <section>
-	<h1>CS 132 2425B Portfolio</h1>
-	<h2>Analyzing the State of Urban and Rural Development Projects in the Philippines in 2024</h2>
-	<h2>Group 14 - Sustainability - DE LA CRUZ, MACARAIG, FADRI</h2>
+	<h1 class="main">CS 132 2425B Portfolio</h1>
+	<div style="display:flex; justify-content:center;">
+		<h2>Analyzing the State of Urban and Rural Development Projects in the Philippines in 2024</h2>
+		<h2>Group 14 - Sustainability - DE LA CRUZ, MACARAIG, FADRI</h2>
+	</div>
 </section>
 <hr>
 
@@ -105,7 +107,22 @@
 	h1 {
 		width: 100%;
 	}
-
+	h2{
+		text-align: left;
+	}
+	.main{
+		font-size: 400%;
+		font-weight: 600;
+		text-align: left;
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+	li{
+		text-align: left;
+	}
+	p{
+		text-align: left;
+	}
 	section {
 		border: 2px solid gray;
   		border-radius: 5px;
