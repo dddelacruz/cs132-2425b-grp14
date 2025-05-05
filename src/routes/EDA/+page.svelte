@@ -341,6 +341,20 @@
 		<hr>
 		<p><b> The funding of Sustainability projects are not distributed proportionally to the population of each region as a fraction of the total population.</b></p>
 	</div>
+	<div class ='textbox'>
+		<p> A Chi-Square Goodness of Fit test will be used for the hypothesis testing at a 95% confidence interval </p>
+		<p> Chi-square test statistic is: <span class='highlight'>3723.782</span>, p-value: <span class='highlight'>0.0</span></p>
+		<p> Since p &lt; 0.05, <b>we reject the null hypothesis</b></p>
+		<hr>
+		<p><b> The funding of Sustainability projects are not distributed proportionally to the population of each region as a fraction of the total population.</b></p>
+	</div>
+	<h3>Conclusion</h3>
+	<div class ='textbox'>
+		We can see that from the different Hypothesis tests, the allocation of project resources is not alligned with the uniform distribution or the 
+		population based distribution. The resource distribution is uneven and policy adjustments may be warranted to ensure equitable allocation across
+		regions. Additionally, the different graphs and plots show us that the projects are concentrated in Luzon, specifically NCR which reflects a more 
+		centralized approach to development.
+	</div>
 </section>
 
 <style>
