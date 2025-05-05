@@ -28,8 +28,7 @@
 <section>
 	<h2>Nutshell Plot (static)</h2>
 	<img alt="Nutshell Plot" src={nutshell} style="width:50vw; margin-top:2vh; margin-bottom:5vh;"/>
-	<p>We can see that from the different Hypothesis tests, the allocation of project resources is not
-		aligned with the uniform distribution or the population based distribution. The resource distribution is uneven and policy adjustments may be warranted to ensure equitable allocation across regions. Additionally, the different graphs and plots show us that the projects are concentrated in Luzon, specifically NCR which reflects a more centralized approach to development.</p>
+	<p>This choropleth map shows the distribution of sustainability projects per region around the Philippines. It can be seen that the majority of projects are concentrated around Region III, IV-A, and NCR. This can mainly be attributed to those regions being part of three large projects: the North-South Commuter Railway, the Bulacan International Airport, and Subic-Clark-Manila-Batangas Dedicated Rail Corridor. Furthermore, most of the projects regarding sustainability are classified as "Physical Connectivity" projects, in other words: projects regarding transportation and connectivity of locations. There are around four times more Physical Connectivity projects compared to Water Resources projects, which is the second most common type. There appears to be an inequality in the number of projects per project type along with per region. Below is an interactive version of the map where you can see the individual values for all of the sectors.</p>
 	<h2>Nutshell Plot (interactive)</h2>
 	<iframe title='Nutshell Plot' src="/nutshell_plot.htm" width="100%" height="800px" style="border: none;"></iframe>
 </section>
