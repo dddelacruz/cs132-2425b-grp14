@@ -278,8 +278,18 @@
 <section>
 	<h2><b>Hypothesis Testing</b></h2>
 	<div class="textbox">
-		<p>The hypothesis testing applia chi-square goodness-of-fit test to evaluate whether the actuall allocation of projects and project funds
-		in the Philippines aligns with an equal distribution or a distribution based on the regional population</p>
+		<p>The hypothesis testing applia chi-square goodness-of-fit test and the Kolmogorov-Smirnov test to evaluate whether the actuall allocation of projects and project funds
+		in the Philippines aligns with an equal distribution or a distribution based on the regional population. Through these tests, we will see if the government 
+		priotritizes each region equally with each project</p>
+		
+	</div>
+	<div class="textbox">
+		<p>
+		We will be using the <b>chi-square goodness-of-fit</b> to check whether the allocation of projects betweeen each region is uniform or if it follows
+		the population distribution across regions. Doing this help us assess if resources are being distributed fairly across regions. 
+		The categorical data would be the region, and each project was divided based on the number of regions affected to make them <b>mutually exclusive</b>.
+		The expected number of projects per region is either equal or according to the population which is significantly large (5 or more)
+		</p>
 	</div>
 	<div class="textbox">
 		<img src={Hypothesis_1} style='width: 48vw'>
@@ -299,6 +309,17 @@
 		<p> Since p &lt; 0.05, <b>we reject the null hypothesis</b></p>
 		<hr>
 		<p><b> Sustainability projects are not distributed proportionally to the population of each region as a fraction of the total population.</b></p>
+	</div>
+
+	<div class="textbox">
+		<p>
+		We will be using the <b>chi-square goodness-of-fit</b> to check whether the fund allocation of projects betweeen each region is uniform or if it follows
+		the population distribution across regions. Again, doing this help us assess if resources are being distributed fairly across regions. 
+		The categorical data would be the region, and each projects fund was divided based on the number of regions affected to make them <b>mutually exclusive</b>.
+		We will treat each project fund similar to the count in the previous test. We think that the chi-square goodness of fit is more suitable because
+		regions are treated as categories and a test like Kolmogorov-Smirnov is designed for continuous distributions and would be less appropriate, as it focuses on comparing 
+		cumulative distribution functions rather than categorical proportions
+		</p>
 	</div>
 
 	<div class ='textbox'>

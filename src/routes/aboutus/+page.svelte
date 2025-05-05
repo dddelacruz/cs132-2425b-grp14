@@ -2,12 +2,19 @@
 	import AboutCard from '$lib/aboutcard/AboutCard.svelte';
 	import avatar from '$lib/assets/avatar.png'
 	import avatar_delacruz from '$lib/assets/avatar_delacruz.png'
+	import avatar_fadri from '$lib/assets/avatar_fadri.png'
 
 	let about = {
 		"avatar" : avatar,
 		"name" : "name1",
 		"desc" : "desc2",
 		"link" : "link3",
+	}
+	let fadri = {
+		"avatar" : avatar_fadri,
+		"name" : "Vincent Paul C. Fadri",
+		"desc" : "4th year BS Computer Science Student:)",
+		"link" : "https://github.com/vpcfadri1",
 	}
 
 	let delacruz = {
@@ -33,7 +40,7 @@
 	</div>
 
 	<div class='column'>
-		<AboutCard {...about}/>
+		<AboutCard {...fadri}/>
 	</div>
 
 	<div class='column'>
