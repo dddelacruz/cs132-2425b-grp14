@@ -49,10 +49,9 @@
         border: 2px solid gray;
         border-radius: 5px;
         height: 400px;
-        margin: 0 10px;
         background-color: white;
-        width: 350px;
         margin: 20px auto;
+        width: 300px;
     }
 
     .avatar-box{

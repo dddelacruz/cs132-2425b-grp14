@@ -34,11 +34,19 @@
 	<h1>About the team</h1>
 </section>
 
+<div class="row">
+	<div class="column">
+		<AboutCard {...delacruz}/>
+	</div>
+	
+	<div class="column">
+		<AboutCard {...fadri}/>
+	</div>
 
-<AboutCard {...delacruz}/>
-<AboutCard {...fadri}/>
-<AboutCard {...about}/>
-
+	<div class="column">
+		<AboutCard {...about}/>
+	</div>
+</div>
 
 <style>
 	section {
@@ -61,10 +69,12 @@
 	}
 	.row {
 		display: flex;
+		flex-direction: row;
+    	flex-wrap: wrap;
 	}
 
 	.column {
-		flex: 33.33%;
+		flex: 30%;
 		padding: 5px;
 	}
 
