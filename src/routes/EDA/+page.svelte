@@ -277,13 +277,14 @@
 
 <section>
 	<h2><b>Hypothesis Testing</b></h2>
-	<h3>Projects by Count</h3>
 	<div class="textbox">
 		<p>The hypothesis testing applia chi-square goodness-of-fit test and the Kolmogorov-Smirnov test to evaluate whether the actuall allocation of projects and project funds
 		in the Philippines aligns with an equal distribution or a distribution based on the regional population. Through these tests, we will see if the government 
 		priotritizes each region equally with each project</p>
 		
 	</div>
+	<h3>Projects by Count</h3>
+	
 	<div class="textbox">
 		<p>
 		We will be using the <b>chi-square goodness-of-fit</b> to check whether the allocation of projects betweeen each region is uniform or if it follows
@@ -335,13 +336,6 @@
 	
 	<div class ='textbox'>
 		<img src={Hypothesis_4} style='width: 48vw'>
-		<p> A Chi-Square Goodness of Fit test will be used for the hypothesis testing at a 95% confidence interval </p>
-		<p> Chi-square test statistic is: <span class='highlight'>3723.782</span>, p-value: <span class='highlight'>0.0</span></p>
-		<p> Since p &lt; 0.05, <b>we reject the null hypothesis</b></p>
-		<hr>
-		<p><b> The funding of Sustainability projects are not distributed proportionally to the population of each region as a fraction of the total population.</b></p>
-	</div>
-	<div class ='textbox'>
 		<p> A Chi-Square Goodness of Fit test will be used for the hypothesis testing at a 95% confidence interval </p>
 		<p> Chi-square test statistic is: <span class='highlight'>3723.782</span>, p-value: <span class='highlight'>0.0</span></p>
 		<p> Since p &lt; 0.05, <b>we reject the null hypothesis</b></p>
