@@ -38,7 +38,7 @@
 	<div>
 		<p><b>Pie Chart for percentage of funds allocated to each sector</b></p>
 		<div style="display:flex; justify-content:center;">
-			<img alt="Pie Chart per Sector" src={pie_chart} style="width:50vw; min-width: 500px; margin-top:2vh; margin-bottom:5vh;"/>
+			<img alt="Pie Chart per Sector" src={pie_chart} style="width:50vw; margin-top:2vh; margin-bottom:5vh;"/>
 		</div>
 	</div>
 
@@ -111,7 +111,7 @@
 	
 	<p><b>Table containing the ten most expensive projects</b></p>
 	<div>
-		<table style='width:65vw'>
+		<table>
 			<tr>
 				  <th>Rank</th>
 				  <th>Project Title</th>
@@ -245,7 +245,7 @@
 	
 	<p><b>Bar chart illustrating the project counts of each sector</b></p>
 	<div>
-		<img alt="Bar Chart per Sector" src={bar_project_count} style="width:65vw; min-width:500px; margin-bottom:4vh;"/>
+		<img alt="Bar Chart per Sector" src={bar_project_count} style="width:65vw; margin-bottom:4vh;"/>
 	</div>
 
 	<div class='textbox'>
@@ -258,14 +258,14 @@
 	<h3>3. Which regions does the government prioritize?</h3>
 	<p><b>Bar chart illustrating the project counts of per region</b></p>
 	<div>
-		<img alt="Bar Chart of projects per region" src={bar_region_count} style="width:65vw; min-width:500px; margin-bottom:4vh;"/>
+		<img alt="Bar Chart of projects per region" src={bar_region_count} style="width:65vw; margin-bottom:4vh;"/>
 	</div>
 
 	<hr>
 
 	<p><b>Bar chart illustrating funds allocated for projects per region</b></p>
 	<div>
-		<img alt="Bar Chart of funds per region" src={bar_region_funds} style="width:65vw; min-width:500px; margin-bottom:2vh;"/>
+		<img alt="Bar Chart of funds per region" src={bar_region_funds} style="width:65vw; margin-bottom:2vh;"/>
 	</div>
 
 	<div class='textbox'>
@@ -277,6 +277,7 @@
 
 <section>
 	<h2><b>Hypothesis Testing</b></h2>
+	<h3>Projects by Count</h3>
 	<div class="textbox">
 		<p>The hypothesis testing applia chi-square goodness-of-fit test and the Kolmogorov-Smirnov test to evaluate whether the actuall allocation of projects and project funds
 		in the Philippines aligns with an equal distribution or a distribution based on the regional population. Through these tests, we will see if the government 
@@ -311,6 +312,7 @@
 		<p><b> Sustainability projects are not distributed proportionally to the population of each region as a fraction of the total population.</b></p>
 	</div>
 
+	<h3>Projects by Funding</h3>
 	<div class="textbox">
 		<p>
 		We will be using the <b>chi-square goodness-of-fit</b> to check whether the fund allocation of projects betweeen each region is uniform or if it follows
@@ -349,6 +351,7 @@
 		justify-content: center;
 		align-items: center;
 		flex: 1;
+		text-align: center;
 	}
 
 	h1 {
@@ -386,7 +389,8 @@
 	}
 
 	.row {
-	display: flex;
+		display: flex;
+		width: 75%;
 	}
 
 	.column {
@@ -400,25 +404,28 @@
 	}
 
 
-	.textbox, .textbox_half {
+	.textbox{
 		border: 2px solid gray;
   		border-radius: 5px;
-		width: 50vw;
-		min-width: 500px;
+		width: 70%;
 		margin: 10px;
 		padding: 10px;
+		align-self: center;
 	}
-
 	
 	.textbox_half{
-		width: 25vw;
+		border: 2px solid gray;
+  		border-radius: 5px;
+		width: 100%;
+		margin: 10px;
+		padding: 10px;
+		align-self: center;
 	}
 	
 	section {
 		border: 2px solid gray;
   		border-radius: 5px;
 		width: 70vw;
-		min-width: 500px;
 		padding: 25px;
 		background-color: rgba(255, 255, 255, 0.8);
 		margin: 20px auto;

@@ -34,19 +34,11 @@
 	<h1>About the team</h1>
 </section>
 
-<div class='row'>
-	<div class='column'>
-		<AboutCard {...delacruz}/>
-	</div>
 
-	<div class='column'>
-		<AboutCard {...fadri}/>
-	</div>
+<AboutCard {...delacruz}/>
+<AboutCard {...fadri}/>
+<AboutCard {...about}/>
 
-	<div class='column'>
-		<AboutCard {...about}/>
-	</div>
-</div>
 
 <style>
 	section {
