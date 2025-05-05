@@ -10,6 +10,9 @@
 	import hotspots from '$lib/assets/hotspots.png';
 	import Hypothesis_1 from '$lib/assets/Hypothesis_1.png';
 	import Hypothesis_2 from '$lib/assets/Hypothesis_2.png';
+	import Hypothesis_3 from '$lib/assets/Hypothesis_3.png';
+	import Hypothesis_4 from '$lib/assets/Hypothesis_4.png';
+    import Page from '../+page.svelte';
 </script>
 
 <svelte:head>
@@ -274,14 +277,17 @@
 
 <section>
 	<h2><b>Hypothesis Testing</b></h2>
-
+	<div class="textbox">
+		<p>The hypothesis testing applia chi-square goodness-of-fit test to evaluate whether the actuall allocation of projects and project funds
+		in the Philippines aligns with an equal distribution or a distribution based on the regional population</p>
+	</div>
 	<div class="textbox">
 		<img src={Hypothesis_1} style='width: 48vw'>
 		<p> A Chi-Square Goodness of Fit test will be used for the hypothesis testing at a 95% confidence interval </p>
 		<p> Chi-square test statistic: <span class='highlight'>105.33742331288343</span>, p-value: <span class='highlight'>9.034780338843591e-15</span></p>
 		<p> Since p &lt; 0.05, <b>we reject the null hypothesis</b></p>
 		<hr>
-		<p><b> Sustainability projects are not evenly distributed among regions in the philippines</b></p>
+		<p><b> Sustainability projects are not evenly distributed among regions in the Philippines</b></p>
 	</div>
 
 	<br>
@@ -295,6 +301,23 @@
 		<p><b> Sustainability projects are not distributed proportionally to the population of each region as a fraction of the total population.</b></p>
 	</div>
 
+	<div class ='textbox'>
+		<img src={Hypothesis_3} style='width: 48vw'>
+		<p> A Chi-Square Goodness of Fit test will be used for the hypothesis testing at a 95% confidence interval </p>
+		<p> Chi-square test statistic is: <span class='highlight'>14926.66616495738</span>, p-value: <span class='highlight'>0.0</span></p>
+		<p> Since p &lt; 0.05, <b>we reject the null hypothesis</b></p>
+		<hr>
+		<p><b> The funding of Sustainability projects are not evenly distributed among regions in the Philippines</b></p>
+	</div>
+	
+	<div class ='textbox'>
+		<img src={Hypothesis_4} style='width: 48vw'>
+		<p> A Chi-Square Goodness of Fit test will be used for the hypothesis testing at a 95% confidence interval </p>
+		<p> Chi-square test statistic is: <span class='highlight'>3723.782374499733</span>, p-value: <span class='highlight'>0.0</span></p>
+		<p> Since p &lt; 0.05, <b>we reject the null hypothesis</b></p>
+		<hr>
+		<p><b> The funding of Sustainability projects are not distributed proportionally to the population of each region as a fraction of the total population.</b></p>
+	</div>
 </section>
 
 <style>
