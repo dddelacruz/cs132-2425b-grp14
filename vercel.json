@@ -1,5 +1,0 @@
-{
-    "rewrites": [
-      { "source": "/nutshell_plot", "destination": "/nutshell_plot.html" }
-    ]
-  }
