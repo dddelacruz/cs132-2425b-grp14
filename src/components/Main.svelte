@@ -6,6 +6,7 @@
     import About from '../components/About.svelte'
     import Conclusion from './Conclusion.svelte';
     import Modeling from './Modeling.svelte';
+    import Story from './Story.svelte';
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -26,6 +27,10 @@
                 </p>
             </div>
         </div>
+    </section>
+
+    <section id="research" class="relative py-16 scroll-mt-24">
+        <Story/>
     </section>
 
     <section id="research" class="relative py-16 scroll-mt-24">
