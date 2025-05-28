@@ -33,8 +33,8 @@
                     This choropleth map shows the distribution of sustainability projects per region around the Philippines. It can be seen that the majority of projects are concentrated around Region III, IV-A, and NCR. This can mainly be attributed to those regions being part of three large projects: the North-South Commuter Railway, the Bulacan International Airport, and Subic-Clark-Manila-Batangas Dedicated Rail Corridor. Furthermore, most of the projects regarding sustainability are classified as "Physical Connectivity" projects, in other words: projects regarding transportation and connectivity of locations. There are around four times more Physical Connectivity projects compared to Water Resources projects, which is the second most common type. There appears to be an inequality in the number of projects per project type along with per region.
                 </p>
             </div>
-            <div class="mt-8 w-full">
-                <iframe title='Nutshell Plot' src="/nutshell_plot.htm" class="w-full h-[800px] border-none"/>
+            <div class="mt-8 w-full invert">
+                <iframe title='Nutshell Plot' src="/nutshell_plot.htm" class="w-full h-[800px] border-none"></iframe>
             </div>
         </div>
 
@@ -51,7 +51,7 @@
                 <!-- Pie Chart -->
                 <div class="flex flex-col items-center mb-8">
                     <p class="text-gray-100 text-lg font-semibold mb-4">Percentage of funds allocated to each sector</p>
-                    <img alt="Pie Chart per Sector" src={pie_chart} class="w-full max-w-3xl"/>
+                    <img alt="Pie Chart per Sector" src={pie_chart} class="w-full max-w-3xl invert"/>
                 </div>
 
                 <!-- Fund Allocation Table -->
@@ -218,7 +218,7 @@
                     </div>
                     <div class="flex gap-4 justify-center items-center md:w-1/3">
                         <img src={pnr} alt="PNR Logo" class="h-32"/>
-                        <img src={train} alt="Train" class="h-32"/>
+                        <img src={train} alt="Train" class="h-32 invert"/>
                     </div>
                 </div>
 
@@ -226,7 +226,7 @@
                 <div class="flex flex-col md:flex-row gap-8 mt-8 bg-stone-900/30 rounded-lg p-6">
                     <div class="flex gap-4 justify-center items-center md:w-1/3 order-2 md:order-1">
                         <img src={road} alt="road" class="h-32"/>
-                        <img src={airplane} alt="airplane" class="h-32"/>
+                        <img src={airplane} alt="airplane" class="h-32 invert"/>
                     </div>
                     <div class="flex-1 order-1 md:order-2">
                         <div class="text-left">
@@ -246,7 +246,7 @@
                         </div>
                     </div>
                     <div class="flex justify-center items-center md:w-1/2">
-                        <img src={hotspots} alt="hotspots" class="h-64"/>
+                        <img src={hotspots} alt="hotspots" class="h-64 invert"/>
                     </div>
                 </div>
             </div>
