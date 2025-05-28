@@ -31,7 +31,7 @@
                     this centralized approach to development leaves the other regions in the dust. Regions outside of the vicinity of Metro Manila receive fewer sustainability projects which reveals issues such as unequal access, slower regional growth, and inadequate infrastructure that stems from a lack of funding in national development plans. Neglecting these areas is especially concerning, as they are more vulnerable to climate change, lack basic services such as water, food and housing, and struggle with limited access to transportation, healthcare and education, all contributing to the widening gap in these communities as compared to the capital.
                 </p>
                 <p class="text-yellow-400 text-lg text-justify">
-                    To reiterate, the goal of SGD 11 is to “Make cities and human settlements inclusive, safe, resilient and sustainable”. Fulfilling this vision is giving each region a chance to improve their cities with national projects that solve their unique challenges.
+                    To reiterate, the goal of SGD 11 is to "Make cities and human settlements inclusive, safe, resilient and sustainable". Fulfilling this vision is giving each region a chance to improve their cities with national projects that solve their unique challenges.
                 </p>
             </div>
         </div>

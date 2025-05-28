@@ -23,7 +23,7 @@
                     In order to gather deeper insights into the structure and thematic similarities of infrastructure projects, we applied unsupervised clustering techniques to the dataset. The primary objective was to group projects based on textual and categorical features, particularly the project titles (stop words and common terms like "project" or "plan" were removed), sector, and regions. By doing so, we can uncover patterns and recurring themes that may not be immediately evident through raw data inspection, and we can get a better look at where our national government places their priorities in terms of sustainability projects.
                 </p>
                 <p class="text-gray-100 text-lg mb-6">
-                    We applied K-Means clustering, a method that finds natural groupings in the data without needing predefined categories. Project titles were converted into numerical form using TF-IDF, which highlights important keywords and reduces the impact of common words like “project” or “development.”
+                    We applied K-Means clustering, a method that finds natural groupings in the data without needing predefined categories. Project titles were converted into numerical form using TF-IDF, which highlights important keywords and reduces the impact of common words like "project" or "development."
                 </p>
                 <p class="text-gray-100 text-lg mb-6">
                     Due to the sector distribution of the projects, the projects were split into Physical Connectivity and non-Physical Connectivity groups. Each group was then clustered into 4 groups.

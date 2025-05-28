@@ -17,8 +17,8 @@
             <div class="bg-stone-800/30 rounded-lg border border-stone-700 p-6 hover:bg-stone-800/40 transition-colors backdrop-blur-sm h-full">
                 <h3 class="text-2xl font-semibold mb-4 text-yellow-400 text-center">What is SDG 11?</h3>
                 <p class="text-gray-100 text-lg text-justify">
-                    Sustainable Development Goal 11 (SDG 11) aims to <span class="text-yellow-400">“Make Cities and Human Settlements Inclusive, Safe, Resilient, and 
-                    Sustainable”</span>. As urban areas are rapidly growing to cater to the increase in population, this Development Goal 
+                    Sustainable Development Goal 11 (SDG 11) aims to <span class="text-yellow-400">"Make Cities and Human Settlements Inclusive, Safe, Resilient, and 
+                    Sustainable"</span>. As urban areas are rapidly growing to cater to the increase in population, this Development Goal 
                     addresses how we need to build our cities to be livable and environmentally friendly while also resilient in the face 
                     of climate change and disasters.
                 </p>
