@@ -5,6 +5,7 @@
         {name: 'Dataset', link: '#dataset'},
         {name: 'EDA', link: '#eda'},
         {name: 'Modeling', link: '#modeling'},
+        {name: 'Conclusion', link: '#conclusion'},
         {name: 'About Us', link: '#about-us'},
     ]
 </script>
