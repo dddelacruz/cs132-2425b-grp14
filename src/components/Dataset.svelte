@@ -14,7 +14,7 @@
             <!-- Description Card -->
             <div class="bg-stone-800/30 rounded-lg border border-stone-700 p-6 hover:bg-stone-800/50 transition-colors">
                 <h3 class="text-2xl font-semibold mb-4 text-yellow-400 text-center">Description</h3>
-                <p class="text-gray-100 text-lg">
+                <p class="text-gray-100 text-lg text-justify">
                     The Infrastructure Flagship Projects (IFP) 2024 Dataset, compiled by the National Economic Development Authority (NEDA), provides a comprehensive overview of the status and progress of the national government's infrastructure initiatives. NEDA aggregates this data yearly to track the status of major government projects. It includes key project details such as title, affected sector, implementing agency, cost and funding allocation, funding source, development partners, geographic coverage, target completion year, and current status at the time of data collection. By analyzing the diverse data points in this dataset, we can gain insights into the government's priorities regarding sustainability and urban planning.
                 </p>
             </div>

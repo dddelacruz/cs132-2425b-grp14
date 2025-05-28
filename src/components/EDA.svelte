@@ -29,7 +29,7 @@
             <h3 class="text-2xl font-semibold mb-6 text-yellow-400 text-center">Project Distribution Overview</h3>
             <div class="flex flex-col items-center">
                 <img alt="Nutshell Plot" src={nutshell} class="w-full max-w-3xl mb-6"/>
-                <p class="text-gray-100 text-lg">
+                <p class="text-gray-100 text-lg text-justify">
                     This choropleth map shows the distribution of sustainability projects per region around the Philippines. It can be seen that the majority of projects are concentrated around Region III, IV-A, and NCR. This can mainly be attributed to those regions being part of three large projects: the North-South Commuter Railway, the Bulacan International Airport, and Subic-Clark-Manila-Batangas Dedicated Rail Corridor. Furthermore, most of the projects regarding sustainability are classified as "Physical Connectivity" projects, in other words: projects regarding transportation and connectivity of locations. There are around four times more Physical Connectivity projects compared to Water Resources projects, which is the second most common type. There appears to be an inequality in the number of projects per project type along with per region.
                 </p>
             </div>
@@ -257,14 +257,14 @@
             <h3 class="text-2xl font-semibold mb-6 text-yellow-400 text-center">Hypothesis Testing</h3>
             
             <div class="text-gray-100 text-lg mb-8 bg-stone-900/30 rounded-lg p-6">
-                <p>The hypothesis testing applies chi-square goodness-of-fit test and the Kolmogorov-Smirnov test to evaluate whether the actual allocation of projects and project funds
+                <p class = "text-justify">The hypothesis testing applies chi-square goodness-of-fit test and the Kolmogorov-Smirnov test to evaluate whether the actual allocation of projects and project funds
                 in the Philippines aligns with an equal distribution or a distribution based on the regional population. Through these tests, we will see if the government 
                 prioritizes each region equally with each project.</p>
             </div>
 
             <h4 class="text-xl font-semibold mb-4 text-yellow-400">Projects by Count</h4>
             <div class="text-gray-100 text-lg mb-8 bg-stone-900/30 rounded-lg p-6">
-                <p>
+                <p class = "text-justify">
                 We will be using the <span class="font-semibold">chi-square goodness-of-fit</span> to check whether the allocation of projects between each region is uniform or if it follows
                 the population distribution across regions. Doing this helps us assess if resources are being distributed fairly across regions. 
                 The categorical data would be the region, and each project was divided based on the number of regions affected to make them <span class="font-semibold">mutually exclusive</span>.
@@ -294,7 +294,7 @@
 
             <h4 class="text-xl font-semibold mb-4 text-yellow-400">Projects by Funding</h4>
             <div class="text-gray-100 text-lg mb-8 bg-stone-900/30 rounded-lg p-6">
-                <p>
+                <p class = "text-justify">
                 We will be using the <span class="font-semibold">chi-square goodness-of-fit</span> to check whether the fund allocation of projects between each region is uniform or if it follows
                 the population distribution across regions. Again, doing this helps us assess if resources are being distributed fairly across regions. 
                 The categorical data would be the region, and each project's fund was divided based on the number of regions affected to make them <span class="font-semibold">mutually exclusive</span>.
@@ -326,7 +326,7 @@
 
             <h4 class="text-xl font-semibold mb-4 text-yellow-400">Hypothesis Conclusion</h4>
             <div class="text-gray-100 text-lg bg-stone-900/30 rounded-lg p-6">
-                <p>
+                <p class = "text-justify">
                 We can see that from the different Hypothesis tests, the allocation of project resources is not aligned with the uniform distribution or the 
                 population based distribution. The resource distribution is uneven and policy adjustments may be warranted to ensure equitable allocation across
                 regions. Additionally, the different graphs and plots show us that the projects are concentrated in Luzon, specifically NCR which reflects a more 
@@ -340,7 +340,7 @@
         <!-- EDA Discussion Section -->
         <div class="bg-stone-800/30 rounded-lg border border-stone-700 p-6 hover:bg-stone-800/50 transition-colors mb-8">
             <h3 class="text-2xl font-semibold mb-6 text-yellow-400 text-center">EDA Discussion</h3>
-            <div class="flex flex-col items-center">
+            <div class="flex flex-col items-center text-justify">
                 <p class="text-gray-100 text-lg mb-5">
                     It can be seen from the EDA conducted, that a majority of the sustainability projects listed in the 2024 IFP Dataset are physical connectivity projects, mainly concerning transportation and roads. Furthermore, a majority of the funds and projects are concentrated in the central Luzon area including Regions III, IV-A, and NCR. 
                 </p>
