@@ -5,6 +5,7 @@
     import EDA from '../components/EDA.svelte'
     import About from '../components/About.svelte'
     import Conclusion from './Conclusion.svelte';
+    import Modeling from './Modeling.svelte';
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -40,7 +41,7 @@
     </section>
 
     <section id="modeling" class="relative py-16 scroll-mt-24">
-
+        <Modeling></Modeling>
     </section>
     
     <section id="conclusion" class="relative py-16 scroll-mt-24">
