@@ -21,7 +21,7 @@
         <img src={datasetbg} alt="" class="w-full h-full object-contain bg-no-repeat"/>
     </div>
     
-    <div class="max-w-6xl mx-auto px-4 relative z-10">
+    <div class="max-w-4xl mx-auto px-4 relative z-10">
         <h2 class="text-3xl font-bold mb-12 text-center text-white">Exploratory Data Analysis</h2>
         
         <!-- Nutshell Plot Section -->
@@ -324,13 +324,40 @@
                 <p class="text-gray-100 text-lg font-semibold">The funding of Sustainability projects are not distributed proportionally to the population of each region as a fraction of the total population.</p>
             </div>
 
-            <h4 class="text-xl font-semibold mb-4 text-yellow-400">Conclusion</h4>
+            <h4 class="text-xl font-semibold mb-4 text-yellow-400">Hypothesis Conclusion</h4>
             <div class="text-gray-100 text-lg bg-stone-900/30 rounded-lg p-6">
                 <p>
                 We can see that from the different Hypothesis tests, the allocation of project resources is not aligned with the uniform distribution or the 
                 population based distribution. The resource distribution is uneven and policy adjustments may be warranted to ensure equitable allocation across
                 regions. Additionally, the different graphs and plots show us that the projects are concentrated in Luzon, specifically NCR which reflects a more 
                 centralized approach to development.
+                </p>
+            </div>
+        </div>
+
+        <br>
+
+        <!-- EDA Discussion Section -->
+        <div class="bg-stone-800/30 rounded-lg border border-stone-700 p-6 hover:bg-stone-800/50 transition-colors mb-8">
+            <h3 class="text-2xl font-semibold mb-6 text-yellow-400 text-center">EDA Discussion</h3>
+            <div class="flex flex-col items-center">
+                <p class="text-gray-100 text-lg mb-5">
+                    It can be seen from the EDA conducted, that a majority of the sustainability projects listed in the 2024 IFP Dataset are physical connectivity projects, mainly concerning transportation and roads. Furthermore, a majority of the funds and projects are concentrated in the central Luzon area including Regions III, IV-A, and NCR. 
+                </p>
+                <p class="text-gray-100 text-lg mb-5">
+                    The top ten most expensive projects are all Physical Connectivity projects. The most expensive project, at Php 873.62, is the North-South Commuter Railway in regions III, IV-A, and NCR. The second most expensive is the New Manila International Airport (Bulacan International Airport) at Php 735.63 for region III. 
+                </p>
+                <p class="text-gray-100 text-lg mb-5">
+                    Of the ten most expensive projects, six of them are railway projects at PHP 2.917 Trillion total, three are road projects at PHP 658.03 Billion, and the last one is an airport project at Php 735.63. Seven of the most expensive projects include region III, while six include NCR, and five include region IV-A.
+                </p>
+                <p class="text-gray-100 text-lg mb-5">
+                    Furthermore, Physical Connectivity projects amount to 87.20% of the funds allocated, with the the second most funded being Water Resources only amounting to 8.10% of the budget, and the third most funded being Agriculture at only 2.23% of the budget. 
+                </p>
+                <p class="text-gray-100 text-lg mb-5">
+                    Based on the results from the dataset, it can be seen that the government mostly prioritizes Physical Connectivity projects, with a focus on Regions III, IV-A, and NCR. 
+                </p>
+                <p class="text-gray-100 text-lg mb-5">
+                    Despite these results, it is not truly enough to draw a definitive conclusion on what the government is really prioritizing. The top ten most expensive projects mentioned are all major development projects that are mostly in the foundational and construction stages. The data for the funding does not take into account the timeline of each project, nor their current status. Additionally, each project has different implementing agencies, funding sources, and development partners, which were not taken into account for this study. These factors can be further investigated in order to give a more complete picture. Another possible avenue for further study is the analysis and comparison of projects within project types or within regions. 
                 </p>
             </div>
         </div>
